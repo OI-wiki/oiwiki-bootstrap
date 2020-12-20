@@ -57,6 +57,7 @@ class Build:
         #    self.__run("yarn", "install", cwd=f"./{i}")
         
     def convert(self):
+        print("build: convert doc")
         if not os.path.exists("./migrator/raw/OI-Wiki"):
             os.symlink(os.path.abspath("./doc"), "./migrator/raw/OI-Wiki")
         
@@ -68,6 +69,7 @@ class Build:
         self.__run("node", ".", cwd=f"./migrator")
     
     def prepare_cauldron(self):
+        print("build: prepare cauldron")
         if os.path.exists("./cauldron"):
             shutil.rmtree("./cauldron")
         
@@ -84,10 +86,10 @@ class Build:
         self.__run("yarn", "build", cwd="./cauldron")
 
     def build(self):
-        # self.prepare_repo()
-        # self.install()
-        # self.convert()
-        # self.prepare_cauldron()
+        self.prepare_repo()
+        self.install()
+        self.convert()
+        self.prepare_cauldron()
         self.generate()
 
 
