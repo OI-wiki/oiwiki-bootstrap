@@ -14,7 +14,8 @@ class Build:
 
         def __init__(self):
             super().__init__()
-            self.bar = tqdm(unit="", bar_format="{l_bar}{bar}[{elapsed}<{remaining}]")
+            disabled = os.environ.get("CI") == "true"
+            self.bar = tqdm(unit="", bar_format="{l_bar}{bar}[{elapsed}<{remaining}]", disable=disabled)
 
         def update(self, op_code, cur_count, max_count=None, message=''):
             self.bar.total = max_count
@@ -84,6 +85,7 @@ class Build:
 
     def generate(self):
         self.__run("yarn", "build", cwd="./cauldron")
+        shutil.copytree("./cauldron/public", "./public")
 
     def build(self):
         self.prepare_repo()
