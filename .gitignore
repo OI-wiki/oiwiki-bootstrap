@@ -2,3 +2,4 @@ jamstack/
 migrator/
 doc/
 cauldron/
+.venv/
