@@ -9,8 +9,8 @@ on:
 
 jobs:
   deploy:
-    env:
-      PRODUCTION: true
+    # env:
+    #  PRODUCTION: true
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
