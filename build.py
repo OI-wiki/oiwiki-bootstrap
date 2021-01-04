@@ -14,7 +14,8 @@ class Build:
 
         def __init__(self):
             super().__init__()
-            self.bar = tqdm(unit="", bar_format="{l_bar}{bar}[{elapsed}<{remaining}]")
+            disabled = os.environ.get("CI") == "true"
+            self.bar = tqdm(unit="", bar_format="{l_bar}{bar}[{elapsed}<{remaining}]", disable=disabled)
 
         def update(self, op_code, cur_count, max_count=None, message=''):
             self.bar.total = max_count
@@ -59,6 +60,7 @@ class Build:
         #    self.__run("yarn", "install", cwd=f"./{i}")
         
     def convert(self):
+        print("build: convert doc")
         if not os.path.exists("./migrator/raw/OI-Wiki"):
             os.symlink(os.path.abspath("./doc"), "./migrator/raw/OI-Wiki")
         
@@ -69,7 +71,15 @@ class Build:
         
         self.__run("node", ".", cwd=f"./migrator")
     
+    def __gen_nav(self):
+        with open("./doc/mkdocs.yml", "r") as f:
+            mkdoc_cfg = yaml.load(f, yaml.BaseLoader)
+            os.makedirs("./cauldron/src/gatsby-theme-oi-wiki/", exist_ok=True)
+            with open("./cauldron/src/gatsby-theme-oi-wiki/sidebar.yaml", "w") as fs:
+                yaml.dump(mkdoc_cfg["nav"], fs, allow_unicode=True)
+
     def prepare_cauldron(self):
+        print("build: prepare cauldron")
         if os.path.exists("./cauldron"):
             shutil.rmtree("./cauldron")
         
@@ -80,16 +90,18 @@ class Build:
         shutil.copy("./test.md", "./cauldron/docs/test.md")
         shutil.copytree("./doc/.git", "./cauldron/.git")
 
+        self.__gen_nav()
         self.__run("yarn", "install", cwd="./cauldron")
 
     def generate(self):
         self.__run("yarn", "build", cwd="./cauldron")
+        shutil.copytree("./cauldron/public", "./public")
 
     def build(self):
-        # self.prepare_repo()
-        # self.install()
-        # self.convert()
-        # self.prepare_cauldron()
+        self.prepare_repo()
+        self.install()
+        self.convert()
+        self.prepare_cauldron()
         self.generate()
 
 
