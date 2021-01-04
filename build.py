@@ -34,7 +34,9 @@ class Build:
     @staticmethod
     def __run(*args, **kw):
         cwd = kw["cwd"]
-        subprocess.run(args, cwd=cwd, stderr=sys.stderr, stdout=sys.stdout)
+        ret = subprocess.run(args, cwd=cwd, stderr=sys.stderr, stdout=sys.stdout)
+        ret.check_returncode()
+        
     def prepare_repo(self):
         for i in self.__dirs(): 
             if os.path.exists(i):
