@@ -8,19 +8,19 @@ on:
   workflow_dispatch:
       inputs:
         doc_checkout_from_repo:
-          description: The document repository to checkout from.
+          description: Document repository
           required: false
           default: 'OI-Wiki/OI-Wiki'
         doc_checkout_from_ref:
-          description: The document repository ref to checkout from.
+          description: Document repository ref
           required: false
           default: 'master'
         make_destination:
-          description: Whether to create repo if not exist
+          description: Create deploy repo if not exist
           required: false
           default: "false"
         destination:
-          description: GitHub Pages repository to deploy to
+          description: Deploy repository to
           required: false
           default: "OI-Wiki/oiwiki-bootstarp"
 jobs:
