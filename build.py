@@ -87,6 +87,7 @@ class Build:
             ignore=shutil.ignore_patterns("docs", "package.json"))
         shutil.copytree("./migrator/out/docs", "./cauldron/docs")
         shutil.copy("./build_package.json", "./cauldron/package.json")
+        shutil.copy("./build_gatsby-node.js", "./cauldron/gatsby-node.js")
         shutil.copy("./test.md", "./cauldron/docs/test.md")
         shutil.copytree("./doc/.git", "./cauldron/.git")
 
