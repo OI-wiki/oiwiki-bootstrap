@@ -5,6 +5,8 @@ import sys
 import shutil
 import git
 import subprocess
+import functools
+import re
 from tqdm import tqdm
 
 
@@ -75,8 +77,23 @@ class Build:
         with open("./doc/mkdocs.yml", "r") as f:
             mkdoc_cfg = yaml.load(f, yaml.BaseLoader)
             os.makedirs("./cauldron/src/gatsby-theme-oi-wiki/", exist_ok=True)
+            
+            nav = mkdoc_cfg["nav"]
+            
+            def __strip_md(item):
+                if type(item) is list:
+                    ret = list(map(lambda x: __strip_md(x), item))
+                    return ret
+                elif type(item) is dict:
+                    it = list(item.items())[0]
+                    if type(it[1]) is str:
+                        return { it[0]: re.sub(".md$", "/", it[1]) }
+                    elif type(it[1]) is list:
+                        return { it[0]: __strip_md(it[1]) }
+            
+            nav = __strip_md(nav)
             with open("./cauldron/src/gatsby-theme-oi-wiki/sidebar.yaml", "w") as fs:
-                yaml.dump(mkdoc_cfg["nav"], fs, allow_unicode=True)
+                yaml.dump(nav, fs, allow_unicode=True)
 
     def prepare_cauldron(self):
         print("build: prepare cauldron")
