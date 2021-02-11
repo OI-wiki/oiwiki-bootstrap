@@ -52,7 +52,11 @@ class Build:
                 remote = repo.create_remote("origin", self.cfg[i]["repo"])
 
                 progress = self.Progress()
-                remote.fetch(depth=1, progress=progress)
+                if i == "doc":
+                    remote.fetch(progress=progress)
+                else:
+                    remote.fetch(depth=1, progress=progress)
+                
                 progress.finalize()
                 repo.git.checkout(self.cfg[i]["ref"])
 
