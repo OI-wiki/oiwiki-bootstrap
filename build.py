@@ -87,7 +87,7 @@ class Build:
                 elif type(item) is dict:
                     it = list(item.items())[0]
                     if type(it[1]) is str:
-                        return { it[0]: re.sub(".md$", "/", it[1]) }
+                        return { it[0]: re.sub("(index)?\.md$", "", it[1]) }
                     elif type(it[1]) is list:
                         return { it[0]: __strip_md(it[1]) }
             
