@@ -7,7 +7,7 @@ noComment: true
 description: OI Wiki 是一个编程竞赛知识整合站点，提供有趣又实用的编程竞赛知识以及其他有帮助的内容，帮助广大编程竞赛爱好者更快更深入地学习编程竞赛
 ---
 
-# 欢迎来到 **OI Wiki** ！ [![GitHub watchers](https://img.shields.io/github/watchers/OI-wiki/OI-wiki.svg?style=social&label=Watch)](https://github.com/OI-wiki/OI-wiki)  [![GitHub stars](https://img.shields.io/github/stars/OI-wiki/OI-wiki.svg?style=social&label=Stars)](https://github.com/OI-wiki/OI-wiki)
+# 欢迎来到 **OI Wiki** ！
 
  [![Word Art](https://cdn.jsdelivr.net/npm/oicdn@0.0.2/wordArt.webp)](https://github.com/OI-wiki/OI-wiki)
 
