@@ -109,6 +109,7 @@ class Build:
         shutil.copytree("./migrator/out/docs", "./cauldron/docs")
         shutil.copy("./build_package.json", "./cauldron/package.json")
         shutil.copy("./build_gatsby-node.js", "./cauldron/gatsby-node.js")
+        shutil.copy("./build.env.production", "./cauldron/.env.production")
         shutil.copy("./test.md", "./cauldron/docs/test.md")
         shutil.copytree("./doc/.git", "./cauldron/.git")
 
