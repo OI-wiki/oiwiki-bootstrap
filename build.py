@@ -104,8 +104,6 @@ class Build:
         if os.path.exists("./cauldron"):
             shutil.rmtree("./cauldron")
         
-        shutil.copytree("./jamstack/example", "./cauldron", 
-            ignore=shutil.ignore_patterns("docs", "package.json"))
         shutil.copytree("./migrator/out/docs", "./cauldron/docs")
         shutil.copytree("./doc/.git", "./cauldron/.git")
         
@@ -129,6 +127,9 @@ class Build:
 
     def generate(self):
         self.__run("yarn", "build", cwd="./cauldron")
+        if os.path.exists("./public"):
+            print("generate: ./public exists, clean")
+            shutil.rmtree("./public")
         shutil.copytree("./cauldron/public", "./public")
 
     def build(self):
