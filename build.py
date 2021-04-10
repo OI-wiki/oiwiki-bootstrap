@@ -124,6 +124,7 @@ class Build:
 
         self.__gen_nav()
         self.__run("yarn", "install", cwd="./cauldron")
+        self.__run("yarn", "link", cwd="./cauldron")
 
     def generate(self):
         self.__run("yarn", "build", cwd="./cauldron")
