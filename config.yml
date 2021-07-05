@@ -1,13 +1,10 @@
 doc:
+  ref: master
   repo: https://github.com/OI-Wiki/OI-Wiki
-  ref: master
-
-migrator:
-  repo: https://github.com/diauweb/oiwiki-migrator
-  ref: master
-
 jamstack:
+  ref: master
   repo: https://github.com/OI-Wiki/gatsby-oi-wiki
   submodule: gatsby-oi-wiki
+migrator:
   ref: master
-
+  repo: https://github.com/diauweb/oiwiki-migrator

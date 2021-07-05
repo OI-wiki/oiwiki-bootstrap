@@ -63,8 +63,6 @@ class Build:
 
     def install(self):
         self.__run("yarn", "install", cwd="./migrator")
-        # for i in self.__dirs():
-        #    self.__run("yarn", "install", cwd=f"./{i}")
         
     def convert(self):
         print("build: convert doc")

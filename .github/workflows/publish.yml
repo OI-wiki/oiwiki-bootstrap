@@ -6,22 +6,23 @@ on:
       - master
   workflow_dispatch:
     inputs:
-      doc_checkout_from_repo:
+      doc_repo:
         description: Document repository
         required: false
         default: "OI-Wiki/OI-Wiki"
-      doc_checkout_from_ref:
+      doc_ref:
         description: Document repository ref
         required: false
         default: "master"
-      make_destination:
-        description: Create deploy repo if not exist
+      jamstack_repo:
+        description: Jamstack repository
         required: false
-        default: "false"
-      destination:
-        description: Deploy repository to
+        default: "OI-Wiki/gatsby-oi-wiki"
+      jamstack_ref:
+        description: Jamstack repository ref
         required: false
-        default: "OI-Wiki/oiwiki-bootstarp"
+        default: "master"
+
 jobs:
   deploy:
     # env:
@@ -57,7 +58,14 @@ jobs:
         run: |
           sudo apt install python3-setuptools 
           pip3 install -r requirements.txt
-
+      - name: Reconfigure
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        run: >
+          python3 reconfigure.py
+          --doc-repo ${{ github.event.inputs.doc_repo }} 
+          --doc-ref ${{ github.event.inputs.doc_ref }}
+          --jamstack-repo ${{ github.event.inputs.jamstack_repo }}
+          --jamstack-ref ${{ github.event.inputs.jamstack_ref }}
       - name: Build
         run: |
           python3 build.py
