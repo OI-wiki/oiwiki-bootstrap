@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "example",
+  "name": "gatsby-oi-wiki",
   "version": "1.0.0",
   "license": "UNLICENSED",
   "scripts": {
@@ -9,9 +9,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^2.32.3",
+    "gatsby": "^3.8.0",
     "gatsby-theme-oi-wiki": "file:../jamstack/gatsby-theme-oi-wiki",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.2"
   }
 }
