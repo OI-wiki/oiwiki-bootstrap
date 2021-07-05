@@ -20,7 +20,7 @@ def main():
 
     args = parser.parse_args()
     if args.doc_repo is not None:
-        cfg["doc"]["repo"] = f"https://github.com{args.doc_repo}"
+        cfg["doc"]["repo"] = f"https://github.com/{args.doc_repo}"
     if args.doc_ref is not None:
         cfg["doc"]["ref"] = args.doc_ref
     
