@@ -53,12 +53,12 @@ class Build:
                 remote = repo.create_remote("origin", self.cfg[i]["repo"])
 
                 progress = self.Progress()
-                if i == "doc":
-                    remote.fetch(progress=progress)
-                else:
-                    remote.fetch(depth=1, progress=progress)
-                
+                fetchArgs = { "progress": progress } #, "refspec": self.cfg[i]["ref"] }
+                if self.cfg[i].get("history") is not True:
+                    fetchArgs["depth"] = 1
+                remote.fetch(**fetchArgs)
                 progress.finalize()
+
                 repo.git.checkout(self.cfg[i]["ref"])
 
     def install(self):

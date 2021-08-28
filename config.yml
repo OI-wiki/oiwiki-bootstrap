@@ -1,10 +1,10 @@
 doc:
+  history: true
   ref: master
   repo: https://github.com/OI-Wiki/OI-Wiki
 jamstack:
   ref: master
   repo: https://github.com/OI-Wiki/gatsby-oi-wiki
-  submodule: gatsby-oi-wiki
 migrator:
   ref: master
   repo: https://github.com/diauweb/oiwiki-migrator
