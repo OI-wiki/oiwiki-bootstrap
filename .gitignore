@@ -4,3 +4,5 @@ doc/
 cauldron/
 .venv/
 public
+
+__pycache__/

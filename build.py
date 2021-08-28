@@ -53,7 +53,7 @@ class Build:
                 remote = repo.create_remote("origin", self.cfg[i]["repo"])
 
                 progress = self.Progress()
-                fetchArgs = { "progress": progress } #, "refspec": self.cfg[i]["ref"] }
+                fetchArgs = { "progress": progress, "refspec": self.cfg[i]["ref"] }
                 if self.cfg[i].get("history") is not True:
                     fetchArgs["depth"] = 1
                 remote.fetch(**fetchArgs)
