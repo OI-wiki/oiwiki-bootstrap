@@ -25,7 +25,7 @@ on:
       migrator_repo:
         description: Migrator repository
         required: false
-        default: "diauweb/oiwiki-migrator"
+        default: "OI-Wiki/oiwiki-migrator"
       migrator_ref:
         description: Migrator repository ref
         required: false
@@ -85,7 +85,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           force_orphan: true
           user_name: "github-actions[bot]"
