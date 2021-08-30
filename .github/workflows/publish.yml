@@ -22,6 +22,14 @@ on:
         description: Jamstack repository ref
         required: false
         default: "master"
+      migrator_repo:
+        description: Migrator repository
+        required: false
+        default: "diauweb/oiwiki-migrator"
+      migrator_ref:
+        description: Migrator repository ref
+        required: false
+        default: "master"
 
 jobs:
   deploy:
@@ -59,12 +67,17 @@ jobs:
       - name: Reconfigure
         if: ${{ github.event_name == 'workflow_dispatch' }}
         run: >
-          python3 reconfigure.py
-          --doc-repo ${{ github.event.inputs.doc_repo }} 
-          --doc-ref ${{ github.event.inputs.doc_ref }}
-          --jamstack-repo ${{ github.event.inputs.jamstack_repo }}
-          --jamstack-ref ${{ github.event.inputs.jamstack_ref }}
+          yq e -i '
+              .doc.repo = "https://github.com/${{ github.event.inputs.doc_repo }}"
+            | .doc.ref = "${{ github.event.inputs.doc_ref }}"
+            | .jamstack.repo = "https://github.com/${{ github.event.inputs.jamstack_repo }}"
+            | .jamstack.ref = "${{ github.event.inputs.jamstack_ref }}"
+            | .migrator.repo = "https://github.com/${{ github.event.inputs.migrator_repo }}"
+            | .migrator.ref = "${{ github.event.inputs.migrator_ref }}"
+          ' config.yml
       - name: Build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 build.py
           rm ./public/CNAME
