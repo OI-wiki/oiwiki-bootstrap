@@ -1,6 +1,6 @@
 # oiwiki-bootstrap
 
-![GitHub Pages](https://github.com/OI-wiki/oiwiki-bootstrap/workflows/GitHub%20Pages/badge.svg)
+[![GitHub Pages](https://github.com/OI-wiki/oiwiki-bootstrap/actions/workflows/publish.yml/badge.svg)](https://github.com/OI-wiki/oiwiki-bootstrap/actions/workflows/publish.yml)
 
 A build script to build a full version (with all docs included) of [gatsby-oi-wiki](https://github.com/OI-wiki/gatsby-oi-wiki/).
 
