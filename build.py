@@ -66,13 +66,13 @@ class Build:
         
     def convert(self):
         print("build: convert doc")
-        if not os.path.exists("./migrator/raw/OI-Wiki"):
-            os.symlink(os.path.abspath("./doc"), "./migrator/raw/OI-Wiki")
+        if not os.path.exists("./migrator/raw"):
+            os.symlink(os.path.abspath("./doc"), "./migrator/raw")
         
         if os.path.exists("./migrator/out/docs"):
             print("convert: clean old docs")
             shutil.rmtree("./migrator/out/docs")
-        os.mkdir("./migrator/out/docs")
+        os.makedirs("./migrator/out/docs", exist_ok=True)
         
         self.__run("node", ".", cwd=f"./migrator")
     
