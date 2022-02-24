@@ -9,8 +9,8 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^3.9.0",
     "gatsby-theme-oi-wiki": "file:../jamstack/gatsby-theme-oi-wiki",
+    "gatsby": "^4.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.2"
   }
