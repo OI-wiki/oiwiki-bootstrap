@@ -35,7 +35,7 @@ jobs:
   deploy:
     env:
      PRODUCTION: true
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
@@ -44,7 +44,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: "14"
+          node-version: "16"
 
       - name: Get node version
         id: node-version
