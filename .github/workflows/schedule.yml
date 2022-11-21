@@ -1,0 +1,8 @@
+on:
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+  sync:
+    name: sync main site
+    uses: ./.github/workflows/publish.yml
+    secrets: inherit
