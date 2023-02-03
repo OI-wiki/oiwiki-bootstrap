@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-changelog-js",
+    "path": "/tools/testlib/validator/changelog/",
+    "result": {"pageContext":{"title":"Validator","changelog":{"all":[{"hash":"58b9fe67d667d265261d733b70b90e6cf0eaefdd","date":"2021-02-08T18:02:48+08:00","message":"apply bot","refs":"","body":"","author_name":"mgt","author_email":"mgt@oi-wiki.org"},{"hash":"d87782727f49a4f30e06b15759b20a7c38ff17ac","date":"2020-07-31T22:43:25+08:00","message":"Resolve conflict","refs":"","body":"","author_name":"StudyingFather","author_email":"studyingfather@outlook.com"},{"hash":"8a4d95c517bdea468033686c73ff2047d9c722fa","date":"2020-07-23T16:21:56+08:00","message":"调整页面划分","refs":"","body":"","author_name":"NachtgeistW","author_email":"nachtgeistw@protonmail.com"}],"latest":{"hash":"58b9fe67d667d265261d733b70b90e6cf0eaefdd","date":"2021-02-08T18:02:48+08:00","message":"apply bot","refs":"","body":"","author_name":"mgt","author_email":"mgt@oi-wiki.org"},"total":3},"relativePath":"docs/tools/testlib/validator.md"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

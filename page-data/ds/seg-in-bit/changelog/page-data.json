@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-changelog-js",
+    "path": "/ds/seg-in-bit/changelog/",
+    "result": {"pageContext":{"title":"树状数组套权值线段树","changelog":{"all":[{"hash":"5d5454b4c794270d6d4619673d205633d11d3d82","date":"2022-09-17T13:09:54+08:00","message":"fix(seg-in-bit.md): 继承前人的更换主席树名字以及修正珂朵莉树位置 (#4271)","refs":"","body":"* fix #4176\r\n\r\n* style: format markdown files with remark-lint\r\n\r\nCo-authored-by: 24OI-bot <15963390+24OI-bot@users.noreply.github.com>","author_name":"Great-designer","author_email":"63183399+Great-designer@users.noreply.github.com"}],"latest":{"hash":"5d5454b4c794270d6d4619673d205633d11d3d82","date":"2022-09-17T13:09:54+08:00","message":"fix(seg-in-bit.md): 继承前人的更换主席树名字以及修正珂朵莉树位置 (#4271)","refs":"","body":"* fix #4176\r\n\r\n* style: format markdown files with remark-lint\r\n\r\nCo-authored-by: 24OI-bot <15963390+24OI-bot@users.noreply.github.com>","author_name":"Great-designer","author_email":"63183399+Great-designer@users.noreply.github.com"},"total":1},"relativePath":"docs/ds/seg-in-bit.md"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

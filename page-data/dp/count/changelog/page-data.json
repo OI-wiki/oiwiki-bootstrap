@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-changelog-js",
+    "path": "/dp/count/changelog/",
+    "result": {"pageContext":{"title":"计数 DP","changelog":{"all":[{"hash":"f10f848ec62656529d53f19aef4bfdc6ea3dc894","date":"2019-07-25T01:27:15+08:00","message":"Update count.md","refs":"","body":"","author_name":"Ir1dXD","author_email":"sirius.caffrey@gmail.com"},{"hash":"0394c4600fb229ef5a7d42bc76a256744849ac23","date":"2019-07-24T08:23:58-04:00","message":"style: format markdown files with remark-lint","refs":"","body":"","author_name":"24OI-bot","author_email":"15963390+24OI-bot@users.noreply.github.com"},{"hash":"5b34e3f552e3d01a914b64e1b26ebfcb35f24693","date":"2019-07-24T20:21:58+08:00","message":"Create count.md","refs":"","body":"","author_name":"FFjet","author_email":"Leoleepaytser@hotmail.com"}],"latest":{"hash":"f10f848ec62656529d53f19aef4bfdc6ea3dc894","date":"2019-07-25T01:27:15+08:00","message":"Update count.md","refs":"","body":"","author_name":"Ir1dXD","author_email":"sirius.caffrey@gmail.com"},"total":3},"relativePath":"docs/dp/count.md"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

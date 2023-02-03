@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-changelog-js",
+    "path": "/tools/testlib/changelog/",
+    "result": {"pageContext":{"title":"Testlib 简介","changelog":{"all":[{"hash":"58b9fe67d667d265261d733b70b90e6cf0eaefdd","date":"2021-02-08T18:02:48+08:00","message":"apply bot","refs":"","body":"","author_name":"mgt","author_email":"mgt@oi-wiki.org"},{"hash":"5c034e6c90327e1157d73008d57b0a74141cbef4","date":"2020-08-04T17:09:06+08:00","message":"docs: 添加 author 字段","refs":"","body":"","author_name":"NachtgeistW","author_email":"NachtgeistW@protonmail.com"},{"hash":"8a4d95c517bdea468033686c73ff2047d9c722fa","date":"2020-07-23T16:21:56+08:00","message":"调整页面划分","refs":"","body":"","author_name":"NachtgeistW","author_email":"nachtgeistw@protonmail.com"}],"latest":{"hash":"58b9fe67d667d265261d733b70b90e6cf0eaefdd","date":"2021-02-08T18:02:48+08:00","message":"apply bot","refs":"","body":"","author_name":"mgt","author_email":"mgt@oi-wiki.org"},"total":3},"relativePath":"docs/tools/testlib/index.md"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

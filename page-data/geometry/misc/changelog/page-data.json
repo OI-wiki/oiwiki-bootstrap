@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-changelog-js",
+    "path": "/geometry/misc/changelog/",
+    "result": {"pageContext":{"title":"计算几何杂项","changelog":{"all":[{"hash":"06da855d1045c1a8c773f32080316be136fa9a8c","date":"2019-08-04T20:07:22+08:00","message":"shorten path & fix format & update author & add page","refs":"","body":"","author_name":"Xeonacid","author_email":"h.dwwwwww@gmail.com"}],"latest":{"hash":"06da855d1045c1a8c773f32080316be136fa9a8c","date":"2019-08-04T20:07:22+08:00","message":"shorten path & fix format & update author & add page","refs":"","body":"","author_name":"Xeonacid","author_email":"h.dwwwwww@gmail.com"},"total":1},"relativePath":"docs/geometry/misc.md"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

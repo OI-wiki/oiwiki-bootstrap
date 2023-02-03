@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-changelog-js",
+    "path": "/test/changelog/",
+    "result": {"pageContext":{"title":"test","changelog":{"all":[],"latest":null,"total":0},"relativePath":"docs/test.md"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-changelog-js",
+    "path": "/tools/changelog/",
+    "result": {"pageContext":{"title":"工具软件简介","changelog":{"all":[{"hash":"627a9b9392690463923add1d102e719407a9e69c","date":"2022-02-01T15:21:19+08:00","message":"fix(tools/index): 更正用词","refs":"","body":"","author_name":"Baoshuo Ren","author_email":"i@baoshuo.ren"},{"hash":"a1778dbbd67a8dcf04f7dacc4b0522ce554aaafc","date":"2020-08-07T04:46:21+08:00","message":"docs: 添加比赛相关和工具软件的 index.md","refs":"","body":"","author_name":"夜轮_NachtgeistW","author_email":"NachtgeistW@protonmail.com"}],"latest":{"hash":"627a9b9392690463923add1d102e719407a9e69c","date":"2022-02-01T15:21:19+08:00","message":"fix(tools/index): 更正用词","refs":"","body":"","author_name":"Baoshuo Ren","author_email":"i@baoshuo.ren"},"total":2},"relativePath":"docs/tools/index.md"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

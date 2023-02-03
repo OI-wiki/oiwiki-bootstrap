@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-tags-js",
+    "path": "/tags/flow/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":4,"edges":[{"node":{"fields":{"slug":"/graph/flow/min-cost/"},"frontmatter":{"title":"费用流"}}},{"node":{"fields":{"slug":"/graph/flow/min-cut/"},"frontmatter":{"title":"最小割"}}},{"node":{"fields":{"slug":"/graph/flow/max-flow/"},"frontmatter":{"title":"最大流"}}},{"node":{"fields":{"slug":"/graph/flow/bound/"},"frontmatter":{"title":"上下界网络流"}}}]}},"pageContext":{"tag":"flow"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-changelog-js",
+    "path": "/tools/testlib/generator/changelog/",
+    "result": {"pageContext":{"title":"Generator","changelog":{"all":[{"hash":"8a4d95c517bdea468033686c73ff2047d9c722fa","date":"2020-07-23T16:21:56+08:00","message":"调整页面划分","refs":"","body":"","author_name":"NachtgeistW","author_email":"nachtgeistw@protonmail.com"}],"latest":{"hash":"8a4d95c517bdea468033686c73ff2047d9c722fa","date":"2020-07-23T16:21:56+08:00","message":"调整页面划分","refs":"","body":"","author_name":"NachtgeistW","author_email":"nachtgeistw@protonmail.com"},"total":1},"relativePath":"docs/tools/testlib/generator.md"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

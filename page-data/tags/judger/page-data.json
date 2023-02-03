@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-tags-js",
+    "path": "/tags/judger/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":5,"edges":[{"node":{"fields":{"slug":"/tools/judger/"},"frontmatter":{"title":"评测工具简介"}}},{"node":{"fields":{"slug":"/tools/judger/lemon/"},"frontmatter":{"title":"Lemon"}}},{"node":{"fields":{"slug":"/tools/judger/cena/"},"frontmatter":{"title":"Cena"}}},{"node":{"fields":{"slug":"/tools/judger/ccr-plus/"},"frontmatter":{"title":"CCR Plus"}}},{"node":{"fields":{"slug":"/tools/judger/arbiter/"},"frontmatter":{"title":"Arbiter"}}}]}},"pageContext":{"tag":"judger"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

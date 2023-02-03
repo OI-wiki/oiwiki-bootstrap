@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-tags-js",
+    "path": "/tags/probability/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":5,"edges":[{"node":{"fields":{"slug":"/math/probability/exp-var/"},"frontmatter":{"title":"随机变量的数字特征"}}},{"node":{"fields":{"slug":"/math/probability/random-variable/"},"frontmatter":{"title":"随机变量"}}},{"node":{"fields":{"slug":"/math/probability/concentration-inequality/"},"frontmatter":{"title":"概率不等式"}}},{"node":{"fields":{"slug":"/math/probability/conditional-probability/"},"frontmatter":{"title":"条件概率与独立性"}}},{"node":{"fields":{"slug":"/math/probability/basic-conception/"},"frontmatter":{"title":"基本概念"}}}]}},"pageContext":{"tag":"probability"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

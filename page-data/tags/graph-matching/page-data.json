@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-tags-js",
+    "path": "/tags/graph-matching/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":6,"edges":[{"node":{"fields":{"slug":"/graph/graph-matching/augment/"},"frontmatter":{"title":"增广路"}}},{"node":{"fields":{"slug":"/graph/graph-matching/graph-match/"},"frontmatter":{"title":"图匹配"}}},{"node":{"fields":{"slug":"/graph/graph-matching/bigraph-weight-match/"},"frontmatter":{"title":"二分图最大权匹配"}}},{"node":{"fields":{"slug":"/graph/graph-matching/bigraph-match/"},"frontmatter":{"title":"二分图最大匹配"}}},{"node":{"fields":{"slug":"/graph/graph-matching/general-weight-match/"},"frontmatter":{"title":"一般图最大权匹配"}}},{"node":{"fields":{"slug":"/graph/graph-matching/general-match/"},"frontmatter":{"title":"一般图最大匹配"}}}]}},"pageContext":{"tag":"graph-matching"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

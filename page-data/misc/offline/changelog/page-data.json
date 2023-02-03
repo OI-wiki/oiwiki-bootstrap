@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-changelog-js",
+    "path": "/misc/offline/changelog/",
+    "result": {"pageContext":{"title":"离线算法简介","changelog":{"all":[{"hash":"7ff600464864177b7f2dd14e381259fd9df90138","date":"2018-09-08T11:27:19+08:00","message":"style: update style with remark-lint","refs":"","body":"","author_name":"Ir1d","author_email":"sirius.caffrey@gmail.com"},{"hash":"0a9edd1f40156ec249e64a7e608dbcef0355536b","date":"2018-07-13T23:05:06+08:00","message":"feat: add structures","refs":"","body":"","author_name":"Ir1d","author_email":"sirius.caffrey@gmail.com"}],"latest":{"hash":"7ff600464864177b7f2dd14e381259fd9df90138","date":"2018-09-08T11:27:19+08:00","message":"style: update style with remark-lint","refs":"","body":"","author_name":"Ir1d","author_email":"sirius.caffrey@gmail.com"},"total":2},"relativePath":"docs/misc/offline.md"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

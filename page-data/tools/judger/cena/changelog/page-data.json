@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-changelog-js",
+    "path": "/tools/judger/cena/changelog/",
+    "result": {"pageContext":{"title":"Cena","changelog":{"all":[{"hash":"7a736fee43bd693a2ef6404e3104b4aca2303fe5","date":"2021-10-15T20:27:50+08:00","message":"refactor 拆分《评测工具》内容 (#3603)","refs":"","body":"* 提交所有文件\r\n\r\n* style: format markdown files with remark-lint\r\n\r\nCo-authored-by: 24OI-bot <15963390+24OI-bot@users.noreply.github.com>","author_name":"AP54","author_email":"74861234+AP54@users.noreply.github.com"}],"latest":{"hash":"7a736fee43bd693a2ef6404e3104b4aca2303fe5","date":"2021-10-15T20:27:50+08:00","message":"refactor 拆分《评测工具》内容 (#3603)","refs":"","body":"* 提交所有文件\r\n\r\n* style: format markdown files with remark-lint\r\n\r\nCo-authored-by: 24OI-bot <15963390+24OI-bot@users.noreply.github.com>","author_name":"AP54","author_email":"74861234+AP54@users.noreply.github.com"},"total":1},"relativePath":"docs/tools/judger/cena.md"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-changelog-js",
+    "path": "/contest/changelog/",
+    "result": {"pageContext":{"title":"比赛相关简介","changelog":{"all":[{"hash":"a1778dbbd67a8dcf04f7dacc4b0522ce554aaafc","date":"2020-08-07T04:46:21+08:00","message":"docs: 添加比赛相关和工具软件的 index.md","refs":"","body":"","author_name":"夜轮_NachtgeistW","author_email":"NachtgeistW@protonmail.com"}],"latest":{"hash":"a1778dbbd67a8dcf04f7dacc4b0522ce554aaafc","date":"2020-08-07T04:46:21+08:00","message":"docs: 添加比赛相关和工具软件的 index.md","refs":"","body":"","author_name":"夜轮_NachtgeistW","author_email":"NachtgeistW@protonmail.com"},"total":1},"relativePath":"docs/contest/index.md"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

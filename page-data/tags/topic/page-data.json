@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-tags-js",
+    "path": "/tags/topic/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":4,"edges":[{"node":{"fields":{"slug":"/topic/segment-tree-offline/"},"frontmatter":{"title":"线段树与离线询问"}}},{"node":{"fields":{"slug":"/topic/bracket/"},"frontmatter":{"title":"括号序列"}}},{"node":{"fields":{"slug":"/topic/dsu-app/"},"frontmatter":{"title":"并查集应用"}}},{"node":{"fields":{"slug":"/topic/rmq/"},"frontmatter":{"title":"RMQ"}}}]}},"pageContext":{"tag":"topic"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

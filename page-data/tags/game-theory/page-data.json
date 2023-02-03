@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-tags-js",
+    "path": "/tags/game-theory/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":4,"edges":[{"node":{"fields":{"slug":"/math/game-theory/partizan-game/"},"frontmatter":{"title":"非公平组合游戏"}}},{"node":{"fields":{"slug":"/math/game-theory/misere-game/"},"frontmatter":{"title":"反常游戏"}}},{"node":{"fields":{"slug":"/math/game-theory/intro/"},"frontmatter":{"title":"博弈论简介"}}},{"node":{"fields":{"slug":"/math/game-theory/impartial-game/"},"frontmatter":{"title":"公平组合游戏"}}}]}},"pageContext":{"tag":"game-theory"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-changelog-js",
+    "path": "/ds/seg-in-balanced/changelog/",
+    "result": {"pageContext":{"title":"平衡树套线段树","changelog":{"all":[{"hash":"7ff600464864177b7f2dd14e381259fd9df90138","date":"2018-09-08T11:27:19+08:00","message":"style: update style with remark-lint","refs":"","body":"","author_name":"Ir1d","author_email":"sirius.caffrey@gmail.com"},{"hash":"c03f0923d0742e11c8200a451d50a8ae519fe3cf","date":"2018-08-26T23:10:57+08:00","message":"fix: make links shorter and fix broken links","refs":"","body":"","author_name":"Ir1d","author_email":"sirius.caffrey@gmail.com"}],"latest":{"hash":"7ff600464864177b7f2dd14e381259fd9df90138","date":"2018-09-08T11:27:19+08:00","message":"style: update style with remark-lint","refs":"","body":"","author_name":"Ir1d","author_email":"sirius.caffrey@gmail.com"},"total":2},"relativePath":"docs/ds/seg-in-balanced.md"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

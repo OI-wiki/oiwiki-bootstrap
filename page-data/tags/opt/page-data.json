@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-tags-js",
+    "path": "/tags/opt/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":4,"edges":[{"node":{"fields":{"slug":"/dp/opt/state/"},"frontmatter":{"title":"状态设计优化"}}},{"node":{"fields":{"slug":"/dp/opt/slope/"},"frontmatter":{"title":"斜率优化"}}},{"node":{"fields":{"slug":"/dp/opt/quadrangle/"},"frontmatter":{"title":"四边形不等式优化"}}},{"node":{"fields":{"slug":"/dp/opt/monotonous-queue-stack/"},"frontmatter":{"title":"单调队列/单调栈优化"}}}]}},"pageContext":{"tag":"opt"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

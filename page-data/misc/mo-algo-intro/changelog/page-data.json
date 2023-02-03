@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-changelog-js",
+    "path": "/misc/mo-algo-intro/changelog/",
+    "result": {"pageContext":{"title":"莫队算法简介","changelog":{"all":[{"hash":"be7af2ed6e7ee24c12931af1d768d8867c145d61","date":"2020-05-07T13:08:02+08:00","message":"fix: add authors","refs":"","body":"","author_name":"Ir1d","author_email":"sirius.caffrey@gmail.com"},{"hash":"d2fd7e15810057479b8c1e875be8c6f97b1a01e6","date":"2020-05-04T11:20:14+08:00","message":"Create mo-algo-intro.md","refs":"","body":"","author_name":"countercurrent_time","author_email":"50617959+countercurrent-time@users.noreply.github.com"}],"latest":{"hash":"be7af2ed6e7ee24c12931af1d768d8867c145d61","date":"2020-05-07T13:08:02+08:00","message":"fix: add authors","refs":"","body":"","author_name":"Ir1d","author_email":"sirius.caffrey@gmail.com"},"total":2},"relativePath":"docs/misc/mo-algo-intro.md"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}

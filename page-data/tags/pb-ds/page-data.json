@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-oi-wiki-src-templates-tags-js",
+    "path": "/tags/pb-ds/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":3,"edges":[{"node":{"fields":{"slug":"/lang/pb-ds/tree/"},"frontmatter":{"title":"平衡树"}}},{"node":{"fields":{"slug":"/lang/pb-ds/pq/"},"frontmatter":{"title":"堆"}}},{"node":{"fields":{"slug":"/lang/pb-ds/"},"frontmatter":{"title":"pb_ds 简介"}}}]}},"pageContext":{"tag":"pb-ds"}},
+    "staticQueryHashes": ["2462162885","3656965534"]}
